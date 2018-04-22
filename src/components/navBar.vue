@@ -5,7 +5,7 @@
     <q-toolbar-title>
       <img class="fuljhury-logo" src="../assets/fuljhury-logo.png" alt="fuljhury logo">
     </q-toolbar-title>
-  <q-btn-group class="text-primary" v-if="this.$q.platform.is.desktop">
+  <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop">
     <q-btn label="HOME" outline/>
     <q-btn-dropdown class="text-primary" label="AbOUT US" outline>
       <q-list link class="text-primary">
@@ -85,6 +85,12 @@ export default {
 <style scoped>
   .fuljhury-logo {
     height: 3rem;
+  }
+
+  @media (max-width: 700px) {
+    .nav-btns {
+      display: none;
+    }
   }
 
 </style>
