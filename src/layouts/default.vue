@@ -6,6 +6,22 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <q-layout-footer v-model="footer" >
+      <q-toolbar>
+        <q-toolbar-title>
+          &copy; 2013 Fuljhury. All Rights Reserved.
+        </q-toolbar-title>
+          <div>Designed by &nbsp; </div>
+          <a class="myprofile" href="https://www.facebook.com/Mohaimin94" target="_blank" rel="noopener">
+            <q-btn
+            outline
+            size="sm"
+            rounded
+            label="Mohaimin Islam"
+          />
+          </a>
+      </q-toolbar>
+    </q-layout-footer>
   </q-layout>
 </template>
 
@@ -24,4 +40,8 @@ export default {
 </script>
 
 <style scoped>
+  .myprofile {
+    color: #eee;
+  }
+
 </style>
