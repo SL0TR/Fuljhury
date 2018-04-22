@@ -63,7 +63,13 @@ module.exports = function (ctx) {
         'QBtnDropdown',
         'QCarousel',
         'QCarouselSlide',
-        'QCarouselControl'
+        'QCarouselControl',
+        'QCard',
+        'QCardTitle',
+        'QCardMain',
+        'QCardMedia',
+        'QCardSeparator',
+        'QCardActions'
       ],
       directives: [
         'Ripple'

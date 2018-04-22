@@ -4,8 +4,7 @@ export default [
     path: '/',
     component: () => import('layouts/default'),
     children: [
-      { path: '', component: () => import('pages/index') },
-      { path: '/mohaimin', redirect: 'https://www.facebook.com/Mohaimin94' }
+      { path: '', component: () => import('pages/index') }
     ]
   },
 

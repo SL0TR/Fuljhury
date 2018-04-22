@@ -9,7 +9,7 @@
     <q-layout-footer v-model="footer" >
       <q-toolbar>
         <q-toolbar-title>
-          &copy; 2013 Fuljhury. All Rights Reserved.
+          &copy; 2018 Fuljhury. All Rights Reserved.
         </q-toolbar-title>
           <div>Designed by &nbsp; </div>
           <a class="myprofile" href="https://www.facebook.com/Mohaimin94" target="_blank" rel="noopener">
