@@ -11,8 +11,8 @@ module.exports = function (ctx) {
     ],
     extras: [
       ctx.theme.mat ? 'roboto-font' : null,
-      'material-icons'
-      // 'ionicons',
+      'material-icons',
+      'ionicons'
       // 'mdi',
       // 'fontawesome'
     ],
@@ -59,7 +59,10 @@ module.exports = function (ctx) {
         'QItem',
         'QItemMain',
         'QItemSide',
-        'QBtnDropdown'
+        'QBtnDropdown',
+        'QCarousel',
+        'QCarouselSlide',
+        'QCarouselControl'
       ],
       directives: [
         'Ripple'
