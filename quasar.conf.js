@@ -11,8 +11,8 @@ module.exports = function (ctx) {
     ],
     extras: [
       ctx.theme.mat ? 'roboto-font' : null,
-      'material-icons',
-      'ionicons'
+      'material-icons'
+      // 'ionicons'
       // 'mdi',
       // 'fontawesome'
     ],
@@ -69,7 +69,16 @@ module.exports = function (ctx) {
         'QCardMain',
         'QCardMedia',
         'QCardSeparator',
-        'QCardActions'
+        'QCardActions',
+        'QList',
+        'QListHeader',
+        'QItem',
+        'QItemMain',
+        'QItemSeparator',
+        'QItemSide',
+        'QItemTile',
+        'QBtnGroup',      // if using QBtn
+        'QBtnDropdown'
       ],
       directives: [
         'Ripple'

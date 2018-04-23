@@ -5,22 +5,22 @@
     <q-toolbar-title>
       <img class="fuljhury-logo" src="../assets/fuljhury-logo.png" alt="fuljhury logo">
     </q-toolbar-title>
-  <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop">
+  <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop" outline>
     <q-btn label="HOME" outline @click="$router.push('/')"/>
     <q-btn-dropdown class="text-primary" label="ABOUT US" outline>
       <div class="row">
         <div class="col-12 text-center">
-          <q-btn class="text-primary" label="COMPANY" flat @click="$router.push('/company')"/>
+          <q-btn class="text-primary full-width" label="COMPANY" flat @click="$router.push('/company')"/>
         </div>
       </div>
       <div class="row">
         <div class="col-12 text-center">
-          <q-btn class="text-primary" label="FACTORY" flat @click="$router.push('/factory')"/>
+          <q-btn class="text-primary full-width" label="FACTORY" flat @click="$router.push('/factory')"/>
         </div>
       </div>
       <div class="row">
         <div class="col-12 text-center">
-         <q-btn class="text-primary" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
+         <q-btn class="text-primary full-width" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
         </div>
       </div>
     </q-btn-dropdown>
@@ -61,7 +61,7 @@
   </q-layout-drawer>
   <q-btn
     icon="menu"
-    color="primary"
+    class="text-primary"
     v-if="this.$q.platform.is.mobile"
     @click="drawer = !drawer"
   />
@@ -70,6 +70,7 @@
 
 <script>
 export default {
+  name: 'navBar',
   data () {
     return {
       drawer: false

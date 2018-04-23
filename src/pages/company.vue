@@ -1,7 +1,94 @@
 <template>
-  <div>
-    <div>
-      PageCompany
+  <div class="row">
+    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
+      <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
+    </div>
+    <div class="col-6 offset-3 q-mb-md">
+      <hr>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-xs-12">
+      <q-carousel
+        easing
+        arrows
+        height="50vh"
+        infinite
+        autoplay
+        quick-nav
+        class="round-borders shadow-1"
+      >
+        <q-carousel-slide img-src="../assets/company_cover_1croped.jpg"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/company_cover_2croped.jpg"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/factory_3_large_cropped.jpg"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/company_cover_5_cropped.jpg"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/factory_4_large_cropped.jpg"></q-carousel-slide>
+      </q-carousel>
+    </div>
+    <div class="col-xs-10 offset-xs-1  q-mt-xl">
+      <div class="text-center q-display-1 text-secondary text-bold">Our Company</div>
+    </div>
+    <div class="col-2 offset-5 q-mt-sm">
+      <hr>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-md">
+      <q-card>
+        <q-card-title>
+          <div class="text-primary q-headline">Our Objective</div>
+        </q-card-title>
+        <q-card-separator />
+        <q-card-main>
+          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Production of quality Polo Shirts, T-Shirts, Printed & other Knit Garments, both tops and bottoms.</div>
+          <q-card-separator />
+          <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Selling Knit Fabrics</div>
+          <q-card-separator />
+          <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Browse our About Us pages to get to know us more. Alternately download our company profile</div>
+          <div class="q-subheading q-mb-lg q-mt-lg q-headline text-bold">Knittex Industries Ltd.'s promises are not only for the products and quality but they are also known for taking responsibility for their business. This means: </div>
+          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" />  Knittex Industries Ltd. is trying to create a better environment, better social and working conditions in the country and has acquired internationally recognized social compliance certifications.</div>
+          <q-card-separator />
+          <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" />Knittex Industries Ltd. business principles are sound, and we care about today's and tomorrow's environment.</div>
+          <div class="q-subheading q-mb-lg q-mt-lg q-headline text-bold">Our factory is a state of the art production facility with knitting, dyeing, finishing, knit manufacturing and printing sections, all situated in one premise.</div>
+          <q-card-separator />
+        </q-card-main>
+      </q-card>
+    </div>
+    <div class="col-xs-10 offset-xs-1  q-mt-xl">
+      <div class="text-center q-display-1 text-secondary text-bold">Board of Directors</div>
+    </div>
+    <div class="col-2 offset-5 q-mt-sm">
+      <hr>
+    </div>
+    <div class="col-lg-10 offset-lg-1 col-xs-10 offset-xs-1 q-mt-xl q-mb-xl">
+      <div class="img-wrapper shadow-1" v-for="(director,key) in boardDirectos" :key="key">
+        <img  class="director-img"  :src="director.img" alt="image" v-bind:class="{ imgTop : key === 1 || key === 2 }">
+        <div class="img-text full-width text-primary text-bold q-pa-sm q-headline text-italic">{{ director.name }}</div>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-xl q-mb-xl">
+      <q-card>
+        <q-card-title>
+          <div class="text-primary q-headline">Name of Companies</div>
+        </q-card-title>
+        <q-card-separator />
+        <q-card-main>
+          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd.: 100% Export Oriented Composite Knit Garments (Knitting, Dyeing, Finishing, Printing & Garments).</div>
+          <q-card-separator />
+          <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Fuljhury Spinning Mills Ltd. (under construction): 100% cotton knit yarn production.</div>
+          <q-card-separator />
+        </q-card-main>
+      </q-card>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-xl">
+      <q-card>
+        <q-card-title>
+          <div class="text-primary q-headline">Corporate Social Responsibility</div>
+        </q-card-title>
+        <q-card-separator />
+        <q-card-main>
+          <div class="q-subheading q-mb-md">As a prominent entity in the growing RMG sector of Bangladesh, Fuljhury group strongly believes in the principles of Corporate Social Responsibility. As a part of that, the group has ensured a work environment which is respectful of the essential rights and safety of the workers providing the necessary facilities and meeting international standards. This includes dining halls, prayer areas, childcare area, health and safety equipment and much more in order to ensure a fully internationally compliant working atmosphere. The group also thrives continuously towards making their manufacturing workflow environmentally friendly which includes minimised wastage, an Effluent Treatment Plant (ETP,) steam recovery system and much more.</div>
+          <q-card-separator />
+          <div class="q-subheading q-mb-md q-mt-md">The group is also committed to the general welfare of the society, participating in various social activities for the common good of the under-privileged. Through the Nurjahan-Salam Foundation (NSF), Fuljhury Group aims to create a platform to support the destitute. Moreover, the group is also determined to provide necessary shelter and education to poor and orphan children through Hakro Shishu Niketon while providing free healthcare facilities through the Babar Ullah Fakir Free Clinic and a free kindergarten school (BFKG). Fuljhury takes part in these activities and many more as means of aiding the society and upholding its responsibilities as a corporate group.</div>
+          <q-card-separator />
+        </q-card-main>
+      </q-card>
     </div>
   </div>
 </template>
@@ -12,11 +99,84 @@ export default {
   name: 'PageCompany',
   data () {
     return {
+      boardDirectos: [
+        {
+          name: 'Mrs. Shireen Shamsun Nahar',
+          img: '../assets/director_0.jpg'
+        },
+        {
+          name: 'Md. Asadul Haq',
+          img: '../assets/director_1.jpg'
+        },
+        {
+          name: 'M. Ehsanul Haq',
+          img: '../assets/director_2.jpg'
+        },
+        {
+          name: 'Md. Riajul Haq',
+          img: '../assets/director_3.jpg'
+        }
+      ]
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
+  .q-carousel-slide {
+    background-size: 100% 100% !important;
+    position: relative;
+  }
 
+  .img-wrapper {
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-bottom: 2.5rem;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    transition: all ease-in-out 300ms;
+  }
+
+  .img-wrapper img {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+    top: .5rem;
+  }
+
+  .img-text {
+    position: absolute;
+    top: 0;
+    height: 101.8%;
+    width: 100%;
+    border-radius: 50%;
+    background: rgba(0,0,0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 300ms;
+  }
+
+  .img-wrapper:hover .img-text {
+    opacity: 0;
+  }
+
+  .img-wrapper:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -10px) scale(1.2);
+  }
+
+  .imgTop {
+    top: .25rem !important;
+  }
+
+  @media (max-width: 700px) {
+    .img-wrapper {
+      width: 90%;
+    }
+  }
 </style>
