@@ -119,7 +119,7 @@
 
 <script>
 export default {
-  name: 'PageIndex',
+  name: 'PageHome',
   data () {
     return {
       featuredCert: [
