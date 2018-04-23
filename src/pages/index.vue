@@ -3,32 +3,26 @@
     <div class="row">
       <div class="col-12">
         <q-carousel
+          easing
           arrows
-          height="50vh"
+          height="60vh"
           infinite
           autoplay
           quick-nav
           class="round-borders shadow-1"
         >
-          <q-carousel-slide img-src="../assets/company_cover_1.jpg">
-            <div class="absolute-bottom custom-caption"></div>
-          </q-carousel-slide>
-          <q-carousel-slide img-src="../assets/heading2.jpg">
-            <div class="absolute-bottom custom-caption"></div>
-          </q-carousel-slide>
-          <q-carousel-slide img-src="../assets/heading3.jpg">
-            <div class="absolute-bottom custom-caption"></div>
-          </q-carousel-slide>
+          <q-carousel-slide img-src="../assets/company_cover_1croped.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/company_cover_5croped.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/factory_2_large-croped.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/factory_cover_1croped.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/factory_cover_3cropped.jpg"></q-carousel-slide>
         </q-carousel>
       </div>
       <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg">
-        <div class="row">
-          <div class="col-12">
-            <div class="fit back-image profilePic"
-              style="background-image: url(../assets/fuljhury-logo.png); "
-            >
-            </div>
-          </div>
+        <div
+          class="fit back-image profilePic"
+          style="background-image: url(../assets/fuljhury-logo.png);"
+        >
         </div>
       </div>
       <div class="col-6 offset-3 q-mb-md">
@@ -61,7 +55,7 @@
             <div class="text-primary">We welcome an opportunity to talk to you.</div>
             <div slot="subtitle">Just press Contact Us to send us a message</div>
             <div slot="right" class="row items-center">
-              <q-btn label="Contact Us" color="primary"/>
+              <q-btn label="Contact Us" color="primary"  @click="$router.push('/contact')"/>
             </div>
           </q-card-title>
         </q-card>
@@ -86,12 +80,23 @@
     min-height: 150px;
   }
 
-  .back-image{
+  .back-image {
     background-size: 100% 100%;
   }
 
   .q-carousel-slide {
     background-size: 100% 100% !important;
+    position: relative;
+  }
+
+  .q-carousel-slide::after {
+    content: "";
+    background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
 
   .feature-cert-logo {

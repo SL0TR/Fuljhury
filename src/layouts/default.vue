@@ -6,11 +6,11 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-layout-footer v-model="footer" >
-      <q-toolbar>
-        <q-toolbar-title>
-          &copy; 2018 Fuljhury. All Rights Reserved.
-        </q-toolbar-title>
+    <q-toolbar class="footer flex justify-between">
+      <div class="footer">
+        &copy; 2018 Fuljhury. All Rights Reserved.
+      </div>
+        <div class="flex row">
           <div>Designed by &nbsp; </div>
           <a class="myprofile" href="https://www.facebook.com/Mohaimin94" target="_blank" rel="noopener">
             <q-btn
@@ -20,8 +20,8 @@
             label="Mohaimin Islam"
           />
           </a>
-      </q-toolbar>
-    </q-layout-footer>
+        </div>
+    </q-toolbar>
   </q-layout>
 </template>
 
@@ -42,6 +42,18 @@ export default {
 <style scoped>
   .myprofile {
     color: #eee;
+  }
+
+  @media (max-width: 700px) {
+    .footer {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    .footer div {
+      margin: .1rem 0;
+    }
+
   }
 
 </style>
