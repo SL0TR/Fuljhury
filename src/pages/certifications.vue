@@ -126,7 +126,7 @@ a {
 
   .projectPicContainer {
     position: relative;
-    height: 30%;
+    height: 35%;
     top: 0;
     left: 2rem;
   }

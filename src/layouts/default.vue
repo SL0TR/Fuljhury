@@ -63,6 +63,7 @@ export default {
     .footer {
       flex-direction: column;
       justify-content: space-around;
+      padding: .5rem 0;
     }
 
     .footer div {

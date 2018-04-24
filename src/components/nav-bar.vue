@@ -36,17 +36,17 @@
         <q-btn-dropdown class="text-primary full-width" label="ABOUT US" outline>
           <div class="row">
             <div class="col-12 text-center">
-              <q-btn class="text-primary" label="COMPANY" flat @click="$router.push('/company')"/>
+              <q-btn class="text-primary full-width" label="COMPANY" flat @click="$router.push('/company')"/>
             </div>
           </div>
           <div class="row">
             <div class="col-12 text-center">
-              <q-btn class="text-primary" label="FACTORY" flat @click="$router.push('/factory')"/>
+              <q-btn class="text-primary full-width" label="FACTORY" flat @click="$router.push('/factory')"/>
             </div>
           </div>
           <div class="row">
             <div class="col-12 text-center">
-            <q-btn class="text-primary" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
+            <q-btn class="text-primary full-width" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
             </div>
           </div>
         </q-btn-dropdown>
