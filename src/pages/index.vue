@@ -4,18 +4,19 @@
       <div class="col-12">
         <q-carousel
           arrows
-          height="60vh"
+          height="calc(100vh - 61px)"
           infinite
           autoplay
           quick-nav
+          :easing="overshoot"
           class="round-borders shadow-1"
         >
-          <q-carousel-slide img-src="../assets/company_cover_1croped.jpg"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/company_cover_5_cropped.jpg"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/factory_2_large-croped.jpg"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/factory_cover_1croped.jpg"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/factory_cover_3cropped.jpg"></q-carousel-slide>
-          <q-carousel-control
+          <q-carousel-slide img-src="../assets/fuljhury-bg-logo.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/slide-image-4.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/slide-image-5.JPG"></q-carousel-slide>
+          <!-- <q-carousel-control
             slot="control-button"
             slot-scope="carousel"
             position="bottom-right"
@@ -27,15 +28,15 @@
               :icon="carousel.inFullscreen ? 'fullscreen_exit' : 'fullscreen'"
               @click="carousel.toggleFullscreen()"
             />
-          </q-carousel-control>
+          </q-carousel-control> -->
         </q-carousel>
       </div>
-      <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg flex justify-center items-center">
+      <!-- <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg flex justify-center items-center">
         <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
       </div>
       <div class="col-6 offset-3 q-mb-md">
         <hr>
-      </div>
+      </div> -->
       <div class="col-12  q-mt-md">
         <div class="text-center q-headline text-secondary">Ensuring quality one stitch at a time</div>
       </div>
@@ -85,19 +86,26 @@
 
 <style scoped>
   .q-carousel-slide {
-    background-size: 100% 100% !important;
     position: relative;
   }
 
   .q-carousel-slide::after {
     content: "";
-    background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+    background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
   }
+
+  /* .fulljhury-logo {
+    position: absolute;
+    height: 15rem;
+    width: 25rem;
+    top: 32vh;
+    opacity: .7;
+  } */
 
   .feature-cert-logo {
     width: 18%;
@@ -112,21 +120,28 @@
     .feature-cert-logo {
       width: 100%;
     }
+
+    .fulljhury-logo {
+      width: 15rem;
+      height: 8rem;
+    }
   }
 
   @media (min-width: 1700px) {
-    .profilePic {
+    /* .profilePic {
       min-height: 200px;
-    }
+    } */
   }
 
 </style>
 
 <script>
+import { easing } from 'quasar'
 export default {
   name: 'PageHome',
   data () {
     return {
+      overshoot: easing.overshoot,
       featuredCert: [
         {
           url: 'http://www.bsci-intl.org/',
