@@ -49,9 +49,14 @@ export default {
     color: #eee;
   }
 
+  /* GLOBAL STYLES */
   .fulljhury-logo {
     width: 80%;
     height: 80%;
+  }
+
+  .back-image{
+    background-size: 100% 100%;
   }
 
   @media (max-width: 700px) {
