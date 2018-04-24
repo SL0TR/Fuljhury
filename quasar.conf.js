@@ -77,8 +77,12 @@ module.exports = function (ctx) {
         'QItemSeparator',
         'QItemSide',
         'QItemTile',
-        'QBtnGroup',      // if using QBtn
-        'QBtnDropdown'
+        'QBtnGroup',
+        'QBtnDropdown',
+        'QTabs',
+        'QTab',
+        'QTabPane',
+        'QRouteTab'
       ],
       directives: [
         'Ripple'
