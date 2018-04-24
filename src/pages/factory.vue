@@ -35,7 +35,7 @@
     <div class="col-lg-4 offset-lg-4 col-xs-10 offset-xs-1 q-mt-lg q-mb-md">
       <q-card>
         <q-card-title>
-          <div class="text-primary q-headline">The divisions of Knittex Industries Ltd. are:</div>
+          <div class="text-primary q-headline text-center">The divisions of Knittex Industries Ltd. are:</div>
         </q-card-title>
         <q-card-separator />
         <q-card-main>
@@ -182,7 +182,7 @@
         <thead class="bg-primary shadow-4">
           <tr>
             <th class="text-left"><div class="q-subheading text-bold text-white"> UNITS </div></th>
-            <th class="text-center "><div class="q-subheading text-bold text-white">PRODUCT/FEATURE</div></th>
+            <th class="text-left "><div class="q-subheading text-bold text-white">PRODUCT/FEATURE</div></th>
             <th class="text-center "><div class="q-subheading text-bold text-white">CAPACITY/MONTH</div></th>
             <th class="text-right"><div class="q-subheading text-bold text-white">REMARKS</div></th>
           </tr>
@@ -195,7 +195,7 @@
             <td class="border" width="30%">
               <div class="q-subheading  q-mb-lg" v-for="(product, id) in item.product" :key="id"><q-icon color="secondary" size="25px" name="navigate next" /> {{ product }} </div>
             </td>
-            <td class="text-left border" width="20%">
+            <td class="text-center border" width="20%">
               <div class="q-subheading  q-mb-md" v-for="(capacity, id) in item.capacity" :key="id"> {{ capacity }} </div>
             </td>
             <td class="text-right border" width="30%">

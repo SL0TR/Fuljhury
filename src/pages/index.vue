@@ -12,10 +12,10 @@
           class="round-borders shadow-1"
         >
           <q-carousel-slide img-src="../assets/fuljhury-bg-logo.jpg"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-4.JPG"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-5.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
           <!-- <q-carousel-control
             slot="control-button"
             slot-scope="carousel"
@@ -37,28 +37,28 @@
       <div class="col-6 offset-3 q-mb-md">
         <hr>
       </div> -->
-      <div class="col-12  q-mt-md">
-        <div class="text-center q-headline text-secondary">Ensuring quality one stitch at a time</div>
+      <div class="col-12  q-mt-xl">
+        <div class="text-center q-display-1 text-secondary">Ensuring quality one stitch at a time</div>
       </div>
       <div class="col-2 offset-5 q-mt-md">
         <hr>
       </div>
-      <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-md">
+      <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-xl q-mb-xl">
         <q-card>
           <q-card-title>
-            <div class="text-primary q-headline">We are Fuljhury</div>
+            <div class="text-primary q-headline text-center">We are Fuljhury</div>
           </q-card-title>
           <q-card-separator />
           <q-card-main>
-            <div class="q-subheading q-mb-md">Fuljhury Group holds its place as one of the leading knitwear manufacturers of Bangladesh, consisting of Knittex Industries Ltd. and Fuljhury Spinning Mills Ltd. (under construction)</div>
+            <div class="q-subheading q-mb-md text-center">Fuljhury Group holds its place as one of the leading knitwear manufacturers of Bangladesh, consisting of Knittex Industries Ltd. and Fuljhury Spinning Mills Ltd. (under construction)</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md">With its top-notch internationally certified quality maintenance, invaluable experience and undeterred reliability, Fuljhury Group has set the highest possible standard in knitwear exports.</div>
+            <div class="q-subheading q-mb-md q-mt-md text-center">With its top-notch internationally certified quality maintenance, invaluable experience and undeterred reliability, Fuljhury Group has set the highest possible standard in knitwear exports.</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md">Browse our About Us pages to get to know us more. Alternately download our company profile</div>
+            <div class="q-subheading q-mb-md q-mt-md text-center">Browse our About Us pages to get to know us more. Alternately download our company profile</div>
           </q-card-main>
         </q-card>
       </div>
-      <div class="col-lg-6 offset-lg-3 col-xs-10 offset-xs-1 q-mt-md q-mb-md">
+      <div class="col-lg-6 offset-lg-3 col-xs-12 q-mt-xl q-mb-xl">
         <q-card>
           <q-card-title>
             <div class="text-primary">We welcome an opportunity to talk to you.</div>

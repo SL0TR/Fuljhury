@@ -32,7 +32,7 @@
     <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-md">
       <q-card>
         <q-card-title>
-          <div class="text-primary q-headline">Our Objective</div>
+          <div class="text-primary q-headline text-center">Our Objective</div>
         </q-card-title>
         <q-card-separator />
         <q-card-main>
@@ -65,7 +65,7 @@
     <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-xl q-mb-xl">
       <q-card>
         <q-card-title>
-          <div class="text-primary q-headline">Name of Companies</div>
+          <div class="text-primary q-headline text-center">Name of Companies</div>
         </q-card-title>
         <q-card-separator />
         <q-card-main>
@@ -79,13 +79,13 @@
     <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-xl">
       <q-card>
         <q-card-title>
-          <div class="text-primary q-headline">Corporate Social Responsibility</div>
+          <div class="text-primary q-headline text-center">Corporate Social Responsibility</div>
         </q-card-title>
         <q-card-separator />
         <q-card-main>
-          <div class="q-subheading q-mb-md">As a prominent entity in the growing RMG sector of Bangladesh, Fuljhury group strongly believes in the principles of Corporate Social Responsibility. As a part of that, the group has ensured a work environment which is respectful of the essential rights and safety of the workers providing the necessary facilities and meeting international standards. This includes dining halls, prayer areas, childcare area, health and safety equipment and much more in order to ensure a fully internationally compliant working atmosphere. The group also thrives continuously towards making their manufacturing workflow environmentally friendly which includes minimised wastage, an Effluent Treatment Plant (ETP,) steam recovery system and much more.</div>
+          <div class="q-subheading q-mb-md text-center">As a prominent entity in the growing RMG sector of Bangladesh, Fuljhury group strongly believes in the principles of Corporate Social Responsibility. As a part of that, the group has ensured a work environment which is respectful of the essential rights and safety of the workers providing the necessary facilities and meeting international standards. This includes dining halls, prayer areas, childcare area, health and safety equipment and much more in order to ensure a fully internationally compliant working atmosphere. The group also thrives continuously towards making their manufacturing workflow environmentally friendly which includes minimised wastage, an Effluent Treatment Plant (ETP,) steam recovery system and much more.</div>
           <q-card-separator />
-          <div class="q-subheading q-mb-md q-mt-md">The group is also committed to the general welfare of the society, participating in various social activities for the common good of the under-privileged. Through the Nurjahan-Salam Foundation (NSF), Fuljhury Group aims to create a platform to support the destitute. Moreover, the group is also determined to provide necessary shelter and education to poor and orphan children through Hakro Shishu Niketon while providing free healthcare facilities through the Babar Ullah Fakir Free Clinic and a free kindergarten school (BFKG). Fuljhury takes part in these activities and many more as means of aiding the society and upholding its responsibilities as a corporate group.</div>
+          <div class="q-subheading q-mb-md q-mt-md text-center">The group is also committed to the general welfare of the society, participating in various social activities for the common good of the under-privileged. Through the Nurjahan-Salam Foundation (NSF), Fuljhury Group aims to create a platform to support the destitute. Moreover, the group is also determined to provide necessary shelter and education to poor and orphan children through Hakro Shishu Niketon while providing free healthcare facilities through the Babar Ullah Fakir Free Clinic and a free kindergarten school (BFKG). Fuljhury takes part in these activities and many more as means of aiding the society and upholding its responsibilities as a corporate group.</div>
           <q-card-separator />
         </q-card-main>
       </q-card>

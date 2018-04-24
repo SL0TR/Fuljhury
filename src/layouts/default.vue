@@ -59,6 +59,10 @@ export default {
     background-size: 100% 100%;
   }
 
+  .footer {
+    margin-top: 1rem;
+  }
+
   @media (max-width: 700px) {
     .footer {
       flex-direction: column;

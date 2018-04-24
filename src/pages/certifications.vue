@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row q-mb-xl">
     <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg flex justify-center items-center">
       <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
     </div>
