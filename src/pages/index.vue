@@ -10,6 +10,7 @@
           quick-nav
           :easing="overshoot"
           class="round-borders shadow-1"
+          color="secondary"
         >
           <q-carousel-slide img-src="../assets/fuljhury-bg-logo.jpg"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-4.JPG"></q-carousel-slide>
@@ -37,10 +38,10 @@
       <div class="col-6 offset-3 q-mb-md">
         <hr>
       </div> -->
-      <div class="col-12  q-mt-xl">
-        <div class="text-center q-display-1 text-secondary">Ensuring quality one stitch at a time</div>
+      <div class="col-xs-10 offset-xs-1  q-mt-xl">
+      <div class="text-center q-headline text-secondary text-bold">We'd love to hear from you.</div>
       </div>
-      <div class="col-2 offset-5 q-mt-md">
+      <div class="col-2 offset-5 q-mt-sm">
         <hr>
       </div>
       <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-xl q-mb-xl">
@@ -64,7 +65,7 @@
             <div class="text-primary">We welcome an opportunity to talk to you.</div>
             <div slot="subtitle">Just press Contact Us to send us a message</div>
             <div slot="right" class="row items-center">
-              <q-btn label="Contact Us" color="primary"  @click="$router.push('/contact')"/>
+              <q-btn label="Contact Us" color="secondary"  @click="$router.push('/contact')"/>
             </div>
           </q-card-title>
         </q-card>

@@ -54,7 +54,7 @@
         </q-card-title>
         <q-card-separator />
         <q-card-main>
-          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Production of quality Polo Shirts, T-Shirts, Printed & other Knit Garments, both tops and bottoms.</div>
+          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Production of quality Polo Shirts, T-Shirts, Printed &amp; other Knit Garments, both tops and bottoms.</div>
           <q-card-separator />
           <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Selling Knit Fabrics</div>
           <q-card-separator />
@@ -87,7 +87,7 @@
         </q-card-title>
         <q-card-separator />
         <q-card-main>
-          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd.: 100% Export Oriented Composite Knit Garments (Knitting, Dyeing, Finishing, Printing & Garments).</div>
+          <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd.: 100% Export Oriented Composite Knit Garments (Knitting, Dyeing, Finishing, Printing &amp; Garments).</div>
           <q-card-separator />
           <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Fuljhury Spinning Mills Ltd. (under construction): 100% cotton knit yarn production.</div>
           <q-card-separator />

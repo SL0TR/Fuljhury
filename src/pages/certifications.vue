@@ -119,7 +119,7 @@ a {
 
 @media (max-width: 770px) {
   .project {
-    height: 500px;
+    height: 530px;
     margin-bottom: 2em;
     margin: 2rem 0;
   }

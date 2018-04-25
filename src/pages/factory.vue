@@ -8,7 +8,6 @@
     </div> -->
     <div class="col-lg-8 offset-lg-2 col-xs-12">
       <q-carousel
-        easing
         arrows
         height="65vh"
         infinite
@@ -16,7 +15,7 @@
         quick-nav
         handle-arrow-keys
         class="round-borders shadow-1"
-        color="primary"
+        color="secondary"
       >
         <q-carousel-slide img-src="../assets/slide-image-1.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
@@ -102,7 +101,7 @@
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md q-ml-lg"> <q-icon color="secondary" size="25px" name="navigate next" /> Sophisticated technology, machinery &amp; equipment</div>
             <div class="q-subheading q-mb-md q-mt-md q-ml-lg"> <q-icon color="secondary" size="25px" name="navigate next" /> Production process technology acquired</div>
-            <div class="q-subheading q-mb-md q-mt-md q-ml-lg"> <q-icon color="secondary" size="25px" name="navigate next" /> Employment, training & human resource development schemes executed</div>
+            <div class="q-subheading q-mb-md q-mt-md q-ml-lg"> <q-icon color="secondary" size="25px" name="navigate next" /> Employment, training &amp; human resource development schemes executed</div>
           </q-card-main>
         </q-card>
       </q-tab-pane>
@@ -111,7 +110,7 @@
           <q-card-main>
             <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> All hardware/software - in place</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Email for communication with overseas & regional offices.</div>
+            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Email for communication with overseas &amp; regional offices.</div>
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> LAN server</div>
             <q-card-separator />
@@ -121,7 +120,7 @@
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> System analyst, programmers employed - Developing Systems and Designing need based software</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Management Reports on Production, Marketing, Statutory & Management Accounts and MIS with web base ERP Solution</div>
+            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Management Reports on Production, Marketing, Statutory &amp; Management Accounts and MIS with web base ERP Solution</div>
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> CCTV installed to cover all CT-PAT requirements</div>
             <q-card-separator />
@@ -134,11 +133,11 @@
           <q-card-main>
             <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Budget, Statutory &amp; Management Accounts</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Periodical Internal & Annual External Audit.</div>
+            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Periodical Internal &amp; Annual External Audit.</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Level of Authorities & Compliance</div>
+            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Level of Authorities &amp; Compliance</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Documentation, Recording & Controls with full dependence on Hardware & Software</div>
+            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Documentation, Recording &amp; Controls with full dependence on Hardware &amp; Software</div>
           </q-card-main>
         </q-card>
       </q-tab-pane>
@@ -147,7 +146,7 @@
           <q-card-main>
             <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Prime Power Generator GAS Operated 1125 KVA, 1 Set, Brand – Waukesha, USA origin</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Industrial GAS Fired Boiler, 6.00 TPH each, 2 Sets, Taiwan/German origin & Diesel Generator 750 × 1</div>
+            <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Industrial GAS Fired Boiler, 6.00 TPH each, 2 Sets, Taiwan/German origin &amp; Diesel Generator 750 × 1</div>
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Industrial Air Compressor, 7.45 C, 2 sets USA origin</div>
             <q-card-separator />
@@ -262,7 +261,7 @@ export default {
             ]
         },
         {
-          unit: 'Dyeing & Finishing Plant',
+          unit: 'Dyeing &amp; Finishing Plant',
           product: [
             'Computerized color matching by Data Color Spectrophotometer',
             'Dyeing in all ranges, computerized',
@@ -302,7 +301,7 @@ export default {
           ],
           remarks:
             [
-              'Established with latest generation Fong’s, Tung Shing & Dong Num and Tubetex finishing machines of US origin'
+              'Established with latest generation Fong’s, Tung Shing &amp; Dong Num and Tubetex finishing machines of US origin'
             ]
         },
         {
