@@ -3,9 +3,9 @@
     <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
       <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
     </div>
-    <div class="col-6 offset-3 q-mb-xs">
+    <!-- <div class="col-6 offset-3 q-mb-xs">
       <hr>
-    </div>
+    </div> -->
     <div class="col-lg-8 offset-lg-2 col-xs-12">
       <q-carousel
         easing
@@ -16,7 +16,7 @@
         quick-nav
         handle-arrow-keys
         class="round-borders shadow-1"
-        color="secondary"
+        color="primary"
       >
         <q-carousel-slide img-src="../assets/slide-image-1.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
@@ -327,10 +327,10 @@ export default {
 .q-carousel-slide {
   position: relative;
   z-index: 10;
-  border: 5px solid #4EA2BD;
+  /* border: 5px solid #4EA2BD; */
 }
 
-.q-carousel-slide::after {
+/* .q-carousel-slide::after {
   content: "";
   background:  linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4));
   position: absolute;
@@ -338,7 +338,7 @@ export default {
   width: 100%;
   left: 0;
   top: 0;
-}
+} */
 
 th, td {
   padding: 16px;

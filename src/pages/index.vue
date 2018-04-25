@@ -89,7 +89,7 @@
     position: relative;
   }
 
-  .q-carousel-slide::after {
+  /* .q-carousel-slide::after {
     content: "";
     background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     position: absolute;
@@ -97,7 +97,7 @@
     width: 100%;
     left: 0;
     top: 0;
-  }
+  } */
 
   /* .fulljhury-logo {
     position: absolute;
