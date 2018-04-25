@@ -72,13 +72,13 @@ export default {
   margin: 2rem;
   box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
   transition: all ease-in-out 300ms;
-  border: 1px solid #eb4d4b;
+  border: 1px solid #4EA2BD;
 }
 
 .galleryImage:hover {
   box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
   transform: translate(0px, -10px) scale(1.2);
-  border: 5px solid #eb4d4b;
+  border: 5px solid #4EA2BD;
 }
 
 </style>

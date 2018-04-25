@@ -1,12 +1,12 @@
 <template>
   <div class="row">
-    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
+    <!-- <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
       <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
-    </div>
+    </div> -->
     <!-- <div class="col-6 offset-3 q-mb-xs">
       <hr>
     </div> -->
-    <div class="col-lg-8 offset-lg-2 col-xs-12">
+    <!-- <div class="col-lg-8 offset-lg-2 col-xs-12">
       <q-carousel
         easing
         arrows
@@ -38,12 +38,14 @@
           />
         </q-carousel-control>
       </q-carousel>
-    </div>
-    <div class="col-xs-10 offset-xs-1  q-mt-xl">
+    </div> -->
+    <div class="col-xs-10 offset-xs-1  q-mt-lg">
       <div class="text-center q-display-1 text-secondary text-bold">Our Company</div>
     </div>
-    <div class="col-2 offset-5 q-mt-sm">
+    <div class="col-2 offset-5 q-mt-sm q-mb-lg">
       <hr>
+    </div>
+    <div class="company-bg">
     </div>
     <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-md">
       <q-card>
@@ -153,6 +155,14 @@ export default {
     left: 0;
     top: 0;
   } */
+
+  .company-bg {
+    background: url('../assets/company.jpg');
+    width: 100vw;
+    height: 65vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
 
   .img-wrapper {
     display: inline-block;
