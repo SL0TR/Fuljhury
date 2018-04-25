@@ -3,24 +3,40 @@
     <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
       <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
     </div>
-    <div class="col-6 offset-3 q-mb-md">
+    <div class="col-6 offset-3 q-mb-xs">
       <hr>
     </div>
     <div class="col-lg-8 offset-lg-2 col-xs-12">
       <q-carousel
         easing
         arrows
-        height="50vh"
+        height="65vh"
         infinite
         autoplay
         quick-nav
+        handle-arrow-keys
         class="round-borders shadow-1"
+        color="secondary"
       >
-        <q-carousel-slide img-src="../assets/company_cover_1croped.jpg"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/company_cover_2croped.jpg"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/factory_3_large_cropped.jpg"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/company_cover_5_cropped.jpg"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/factory_4_large_cropped.jpg"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/slide-image-company-3.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/slide-image-5.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/slide-image-company-2.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/slide-image-company-4.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/slide-image-company-5.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../assets/slide-image-company-1.JPG"></q-carousel-slide>
+        <q-carousel-control
+          slot="control-button"
+          slot-scope="carousel"
+          position="bottom-right"
+          :offset="[18, 22]"
+        >
+          <q-btn
+            round dense push
+            color="secondary"
+            :icon="carousel.inFullscreen ? 'fullscreen_exit' : 'fullscreen'"
+            @click="carousel.toggleFullscreen()"
+          />
+        </q-carousel-control>
       </q-carousel>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
@@ -124,8 +140,18 @@ export default {
 
 <style scoped>
   .q-carousel-slide {
-    background-size: 100% 100% !important;
     position: relative;
+    border: 5px solid #4EA2BD;
+  }
+
+  .q-carousel-slide::after {
+    content: "";
+    background:  linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
 
   .img-wrapper {

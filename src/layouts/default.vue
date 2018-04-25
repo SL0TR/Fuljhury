@@ -7,7 +7,7 @@
       <router-view />
     </q-page-container>
     <q-toolbar class="footer flex justify-between">
-      <div class="footer">
+      <div>
         &copy; 2018 Fuljhury. All Rights Reserved.
       </div>
         <div class="flex row items-center">
@@ -51,7 +51,7 @@ export default {
 
   /* GLOBAL STYLES */
   .fulljhury-logo {
-    width: 80%;
+    width: 70%;
     height: 80%;
   }
 

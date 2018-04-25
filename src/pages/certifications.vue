@@ -1,6 +1,6 @@
 <template>
   <div class="row q-mb-xl">
-    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg flex justify-center items-center">
+    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
       <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
     </div>
     <div class="col-6 offset-3 q-mb-md">
