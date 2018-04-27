@@ -36,6 +36,15 @@
         <q-btn class="full-width" label="HOME" outline @click="$router.push('/')"/>
       </div>
       <div class="col-10 offset-1 q-mt-lg">
+        <q-btn class="text-primary full-width" label="COMPANY" outline @click="$router.push('/company')"/>
+      </div>
+      <div class="col-10 offset-1 q-mt-lg">
+        <q-btn class="text-primary full-width" label="FACTORY" outline @click="$router.push('/factory')"/>
+      </div>
+      <div class="col-10 offset-1 q-mt-lg">
+        <q-btn class="text-primary full-width" label="CERTIFICATIONS" outline @click="$router.push('/certifications')"/>
+      </div>
+      <!-- <div class="col-10 offset-1 q-mt-lg">
         <q-btn-dropdown class="text-primary full-width" label="ABOUT US" outline>
           <div class="row">
             <div class="col-12 text-center">
@@ -53,7 +62,7 @@
             </div>
           </div>
         </q-btn-dropdown>
-      </div>
+      </div> -->
       <div class="col-10 offset-1 q-mt-lg">
         <q-btn class="full-width" label="PRODUCT" outline @click="$router.push('/product')"/>
       </div>
