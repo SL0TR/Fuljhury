@@ -39,7 +39,7 @@
         <hr>
       </div> -->
       <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-headline text-secondary text-bold">We'd love to hear from you.</div>
+      <div class="text-center q-headline text-secondary text-bold text-italic">Ensuring quality one stitch at a time.</div>
       </div>
       <div class="col-2 offset-5 q-mt-sm">
         <hr>
@@ -51,11 +51,11 @@
           </q-card-title>
           <q-card-separator />
           <q-card-main>
-            <div class="q-subheading q-mb-md text-center">Fuljhury Group holds its place as one of the leading knitwear manufacturers of Bangladesh, consisting of Knittex Industries Ltd. and Fuljhury Spinning Mills Ltd. (under construction)</div>
+            <div class="q-subheading q-mb-md text-center line-height">Fuljhury Group holds its place as one of the leading knitwear manufacturers of Bangladesh, consisting of Knittex Industries Ltd. and Fuljhury Spinning Mills Ltd. (under construction)</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md text-center">With its top-notch internationally certified quality maintenance, invaluable experience and undeterred reliability, Fuljhury Group has set the highest possible standard in knitwear exports.</div>
+            <div class="q-subheading q-mb-md q-mt-md text-center line-height">With its top-notch internationally certified quality maintenance, invaluable experience and undeterred reliability, Fuljhury Group has set the highest possible standard in knitwear exports.</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md text-center">Browse our About Us pages to get to know us more. Alternately download our company profile</div>
+            <div class="q-subheading q-mb-md q-mt-md text-center line-height">Browse our About Us pages to get to know us more. Alternately download our company profile</div>
           </q-card-main>
         </q-card>
       </div>

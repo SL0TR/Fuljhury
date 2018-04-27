@@ -42,18 +42,18 @@
       </q-carousel>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold">Our Factory</div>
+      <div class="text-center q-display-2 text-secondary text-bold">Our Factory</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>
     <div class="col-10 offset-1 q-mt-lg q-mb-lg q-title">
-      <div class="text-center">As a leading knit garments facility (vertical knit composite), Knittex Industries Ltd. a Ltd. company, has established itself in Bangladesh as a prominent supplier of knit garments in 1990. Currently, over 1,500 people are working with 75 people at management positions.</div>
+      <div class="text-center q-mb-xl q-mt-xl">As a leading knit garments facility (vertical knit composite), Knittex Industries Ltd. a Ltd. company, has established itself in Bangladesh as a prominent supplier of knit garments in 1990. Currently, over 1,500 people are working with 75 people at management positions.</div>
     </div>
-    <div class="col-lg-4 offset-lg-4 col-xs-10 offset-xs-1 q-mt-lg q-mb-md">
+    <div class="col-lg-4 offset-lg-4 col-xs-10 offset-xs-1 q-mt-lg q-mb-xl">
       <q-card>
         <q-card-title>
-          <div class="text-primary q-headline text-center">The divisions of Knittex Industries Ltd. are:</div>
+          <div class="text-primary q-display-1 text-center">The divisions of Knittex Industries Ltd. are:</div>
         </q-card-title>
         <q-card-separator />
         <q-card-main>
@@ -72,9 +72,9 @@
       </q-card>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-headline text-secondary text-bold">Key Features of the Knittex Industries Ltd. Factory</div>
+      <div class="text-center q-display-1 text-secondary text-bold">Key Features of the Knittex Industries Ltd. Factory</div>
     </div>
-    <div class="col-2 offset-5 q-mt-sm">
+    <div class="col-2 offset-5 q-mt-sm q-mb-xl">
       <hr>
     </div>
     <div class="col-lg-10 offset-lg-1 col-xs-12  q-mt-lg q-mb-md">
@@ -189,8 +189,28 @@
       </q-tab-pane>
     </q-tabs>
     </div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold">Factory Info</div>
+    <div class="col-2 offset-5 q-mt-sm">
+      <hr>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-xs-12">
+      <div class="row">
+        <div class="col-lg-6 col-xs-12 q-mt-xl q-mb-xl">
+          <div class="text-center q-mb-md q-title text-primary">Factory Area:</div>
+          <div class="text-center q-mb-md">(a) Total Land: 2018.995 DC </div>
+          <div class="text-center q-mb-md">(b) Floor Area: 200,000sq.ft (Approx)</div>
+        </div>
+        <div class="col-lg-6 col-xs-12 q-mt-xl q-mb-xl">
+          <div class="text-center q-mb-md q-title text-primary">Manpower(Approx)</div>
+          <div class="text-center q-mb-md">Officer and Technician : </div>
+          <div class="text-center q-mb-md">Staff and Others : 225</div>
+          <div class="text-center q-mb-md">Workers Skilled/Unskilled : 1200</div>
+          <div class="text-center q-mb-md">Total : 1525</div>
+        </div>
+      </div>
+    </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-headline text-secondary text-bold">Production Information :</div>
+      <div class="text-center q-display-1 text-secondary text-bold">Production Information :</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>

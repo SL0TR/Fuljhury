@@ -83,7 +83,9 @@ module.exports = function (ctx) {
         'QTab',
         'QTabPane',
         'QRouteTab',
-        'QInput'
+        'QInput',
+        'QTimeline',
+        'QTimelineEntry'
       ],
       directives: [
         'Ripple'

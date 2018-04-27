@@ -5,9 +5,12 @@
     <q-toolbar-title>
       <img class="fuljhury-logo" src="../assets/fuljhury-logo.png" alt="fuljhury logo">
     </q-toolbar-title>
-  <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop" outline>
-    <q-btn label="HOME" outline @click="$router.push('/')"/>
-    <q-btn-dropdown class="text-primary" label="ABOUT US" outline>
+  <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop" flat>
+    <q-btn label="HOME" flat @click="$router.push('/')"/>
+    <q-btn class="text-primary" label="COMPANY" flat @click="$router.push('/company')"/>
+    <q-btn class="text-primary" label="FACTORY" flat @click="$router.push('/factory')"/>
+    <q-btn class="text-primary" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
+    <!-- <q-btn-dropdown class="text-primary" label="ABOUT US" outline>
       <div class="row">
         <div class="col-12 text-center">
           <q-btn class="text-primary full-width" label="COMPANY" flat @click="$router.push('/company')"/>
@@ -23,9 +26,9 @@
          <q-btn class="text-primary full-width" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
         </div>
       </div>
-    </q-btn-dropdown>
-    <q-btn label="PRODUCT" outline @click="$router.push('/product')"/>
-    <q-btn label="CONTACT" outline @click="$router.push('/contact')"/>
+    </q-btn-dropdown> -->
+    <q-btn label="PRODUCT" flat @click="$router.push('/product')"/>
+    <q-btn label="CONTACT" flat @click="$router.push('/contact')"/>
   </q-btn-group>
   <q-layout-drawer class="text-primary" side="left" v-model="drawer">
     <div class="row">

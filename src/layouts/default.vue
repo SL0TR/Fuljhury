@@ -63,6 +63,10 @@ export default {
     margin-top: 1rem;
   }
 
+  .line-height {
+    line-height: 1.5rem;
+  }
+
   @media (max-width: 700px) {
     .footer {
       flex-direction: column;

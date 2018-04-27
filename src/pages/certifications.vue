@@ -31,7 +31,7 @@
               </q-card-main>
             </div>
             <q-card-separator />
-            <q-card-actions class="q-ml-lg">
+            <q-card-actions class="q-ml-lg line-height">
               {{ cert.detail }}
             </q-card-actions>
           </div>
@@ -118,8 +118,12 @@ a {
 }
 
 @media (max-width: 770px) {
+
+  .line-height {
+    line-height: 1.3rem;
+  }
   .project {
-    height: 530px;
+    height: 550px;
     margin-bottom: 2em;
     margin: 2rem 0;
   }
