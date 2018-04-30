@@ -1,3 +1,3 @@
-# Quasar App
+# A website made with VueJS using Quasar Framework
 
-> WIP
+> Testing site is hosted at 'http://sl0tr.github.io'
