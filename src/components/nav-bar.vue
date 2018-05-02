@@ -6,10 +6,10 @@
       <img class="fuljhury-logo" src="../assets/fuljhury-logo.png" alt="fuljhury logo">
     </q-toolbar-title>
   <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop" flat>
-    <q-btn label="HOME" flat @click="$router.push('/')"/>
-    <q-btn class="text-primary" label="COMPANY" flat @click="$router.push('/company')"/>
-    <q-btn class="text-primary" label="FACTORY" flat @click="$router.push('/factory')"/>
-    <q-btn class="text-primary" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
+    <q-btn class=" nav-btn" label="HOME" flat @click="$router.push('/')"/>
+    <q-btn class=" nav-btn" label="COMPANY" flat @click="$router.push('/company')"/>
+    <q-btn class=" nav-btn" label="FACTORY" flat @click="$router.push('/factory')"/>
+    <q-btn class=" nav-btn" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
     <!-- <q-btn-dropdown class="text-primary" label="ABOUT US" outline>
       <div class="row">
         <div class="col-12 text-center">
@@ -27,8 +27,8 @@
         </div>
       </div>
     </q-btn-dropdown> -->
-    <q-btn label="PRODUCT" flat @click="$router.push('/product')"/>
-    <q-btn label="CONTACT" flat @click="$router.push('/contact')"/>
+    <q-btn class=" nav-btn" label="PRODUCT" flat @click="$router.push('/product')"/>
+    <q-btn class=" nav-btn" abel="CONTACT" flat @click="$router.push('/contact')"/>
   </q-btn-group>
   <q-layout-drawer class="text-primary" side="left" v-model="drawer">
     <div class="row">
@@ -98,6 +98,15 @@ export default {
 
   .q-item {
     text-align: center;
+  }
+
+  .nav-btn {
+    transition: all .3s ease-in-out;
+  }
+
+  .nav-btn:hover {
+    background: #32BE61;
+    color: #eee !important;
   }
 
   @media (max-width: 700px) {
