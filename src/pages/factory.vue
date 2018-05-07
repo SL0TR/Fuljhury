@@ -20,11 +20,9 @@
         <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-6.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-7.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-9.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-10.JPG"></q-carousel-slide>
         <q-carousel-slide img-src="../assets/slide-image-11.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-12.JPG"></q-carousel-slide>
         <q-carousel-control
           slot="control-button"
           slot-scope="carousel"
@@ -49,7 +47,7 @@
     <div class="col-10 offset-1 q-mt-lg q-mb-lg q-title">
       <div class="text-center q-mb-xl q-mt-xl">As a leading knit garments facility (vertical knit composite), Knittex Industries Ltd. a Ltd. company, has established itself in Bangladesh as a prominent supplier of knit garments in 1990. Currently, over 1,500 people are working with 75 people at management positions.</div>
     </div>
-    <div class="col-lg-4 offset-lg-4 col-xs-10 offset-xs-1 q-mt-lg q-mb-xl">
+    <div class="col-lg-6 offset-lg-3 col-xs-10 offset-xs-1 q-mt-lg q-mb-xl">
       <q-card>
         <q-card-title>
           <div class="text-primary q-display-1 text-center">The divisions of Knittex Industries Ltd. are:</div>
@@ -71,7 +69,7 @@
       </q-card>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold uppercase">Key Features of the Knittex Industries Ltd. Factory</div>
+      <div class="text-center q-display-1 text-secondary text-bold uppercase"> Key Features of the Knittex Industries Ltd.</div>
     </div>
     <div class="col-4 offset-4 q-mt-sm q-mb-xl">
       <hr>
@@ -96,7 +94,7 @@
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Testing Machines: Color fastness to washing, Rubbing Tester perspiration and pilling testers. Knit Garment Manufacturing</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md text-bold"> <q-icon color="secondary" size="25px" name="navigate next" /> Technology &amp; Production :</div>
+            <div class="q-subheading q-mb-md q-mt-md text-bold"> Technology &amp; Production :</div>
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md q-ml-lg"> <q-icon color="secondary" size="25px" name="navigate next" /> Sophisticated technology, machinery &amp; equipment</div>
             <div class="q-subheading q-mb-md q-mt-md q-ml-lg"> <q-icon color="secondary" size="25px" name="navigate next" /> Production process technology acquired</div>
@@ -161,7 +159,7 @@
       <q-tab-pane name="tab-5">
         <q-card class="shadow-0">
           <q-card-main>
-            <div class="q-subheading q-mb-md text-bold"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd.'s promises are not only for our products and quality; we also want to be known for taking responsibility for our business. This means :</div>
+            <div class="q-subheading q-mb-md text-bold">Knittex Industries Ltd.'s promises are not only for our products and quality; we also want to be known for taking responsibility for our business. This means :</div>
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md q-ml-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd. is trying to create a better environment, better social and working conditions in the country</div>
             <q-card-separator />
@@ -172,17 +170,15 @@
       <q-tab-pane name="tab-6">
         <q-card class="shadow-0">
           <q-card-main>
-            <div class="q-subheading q-mb-md text-bold"> <q-icon color="secondary" size="25px" name="navigate next" /> Environmental Commitments :</div>
+            <div class="q-subheading q-mb-md text-bold"> Environmental Commitments :</div>
             <q-card-separator />
             <div class="q-subheading q-mb-md q-mt-md q-ml-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd. has set-up / invested considerable amount in Effluent Treatment Plant (ETP) so that the industrial waste produced from our dyeing mill and washing plant can be cleaned from hazardous chemicals before draining it out from the factory</div>
+            <div class="q-subheading q-mb-md q-mt-md q-ml-md"> <q-icon color="secondary" size="25px" name="navigate next" /> As a part of the green factory, we have planted a lot of trees around our factory premise, we have also set up the system of steam recovery and now getting prepared for setting up of the water reuse system in place</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md text-bold"> <q-icon color="secondary" size="25px" name="navigate next" /> Social Compliance Developments :</div>
+            <div class="q-subheading q-mb-md q-mt-md text-bold"> Social Compliance Developments :</div>
             <q-card-separator/>
             <div class="q-subheading q-mb-md q-mt-md q-ml-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd. has acquired internationally recognized compliance certifications from Oeko-Tex, BSCI, SEDEX etc</div>
             <q-card-separator />
-            <div class="q-subheading q-mb-md q-mt-md text-bold"> <q-icon color="secondary" size="25px" name="navigate next" /> Green Factory :</div>
-            <q-card-separator/>
-            <div class="q-subheading q-mb-md q-mt-md q-ml-md"> <q-icon color="secondary" size="25px" name="navigate next" /> As a part of the green factory, we have planted a lot of trees around our factory premise, we have also set up the system of steam recovery and now getting prepared for setting up of the water reuse system in place</div>
           </q-card-main>
         </q-card>
       </q-tab-pane>
@@ -259,10 +255,10 @@ export default {
             'Polo shirts',
             'Rugby polo',
             'Turtle Necks',
-            'Sportswear',
-            'Sleepwear',
+            'Sweatshirts',
+            'Hoodies',
             'Loungewear',
-            'Essential wear',
+            'Sportswear & Workwear',
             'All types of men"s boxers',
             'Briefs, vests, innerwear, thermals etc'
 
@@ -273,22 +269,25 @@ export default {
           ],
           remarks:
             [
-              '612 Sewing Machines of Japanese /Chinese/ Malaysian origin.',
+              'Sewing, Cutting & others Machines 580 Pcs. of Japanese /Chinese/ Malaysian origin.',
               'Cutting Floor = 18,000 sq. ft.',
               'Sewing Floor = 18,000 × 2 = 36,000 sq. ft',
               'Finishing Floor= 18,000 sq. ft.'
             ]
         },
         {
-          unit: 'Dyeing &amp; Finishing Plant',
+          unit: 'Knit Fabric Plant',
           product: [
-            'Computerized color matching by Data Color Spectrophotometer',
-            'Dyeing in all ranges, computerized',
-            'manual dyeing process from lab dyeing, sample dyeing to production process.',
-            '100% cotton, CVC, P/C, 100% PES fabric up to 130 c–tubular knit fabrics.',
-            'Due to short processing times, gentle care for the fabricsis taken',
-            'We use Azo free / Environmentally friendly European chemicals and dyestuff',
-            'All type of piques'
+            'Knitting in all variations',
+            'Single jersey',
+            'All types of ribs',
+            'All type of piques',
+            'Interlock',
+            'All type of Fleece',
+            'Full feeder spandex fabrics',
+            'Drop needle',
+            'Various designed & structured fabrics',
+            'Collar & cuff (Flat Knit)'
 
           ],
           capacity: [
@@ -296,37 +295,31 @@ export default {
           ],
           remarks:
             [
-              'Established with latest generation Taiwanese and Italian Knit Circular Machines.'
+              'Established with latest generation Taiwanese and Italian Knit Circular Machines and latest Japanese Flat knit collar machines.'
             ]
         },
         {
-          unit: 'Knit Garment Facility',
+          unit: 'Dyeing & Finishing Plant',
           product: [
-            'Basic t-shirts',
-            'Polo shirts',
-            'Rugby polo',
-            'Turtle Necks',
-            'Sportswear',
-            'Sleepwear',
-            'Loungewear',
-            'Essential wear',
-            'All types of men"s boxers',
-            'Briefs, vests, innerwear, thermals etc'
+            'Computerized color matching by Data Color Spectrophotometer',
+            'Dyeing in all ranges, computerized & manual dyeing process from lab dyeing',
+            'sample dyeing to production process. 100% cotton, CVC, P/C, 100% PES fabric up to 130 c–tubular knit fabrics. Due to short processing times, gentle care for the fabrics is taken',
+            'We use Azo free / Environmentally friendly European chemicals and dyestuff'
 
           ],
           capacity: [
-            'Dyeing 208 Tonnes',
-            'Finishing 200 Tonnes'
+            'Dyeing 208 Tones',
+            'Finishing 200 Tones'
           ],
           remarks:
             [
-              'Established with latest generation Fong’s, Tung Shing &amp; Dong Num and Tubetex finishing machines of US origin'
+              'Established with latest generation Sclavos, Fong’s, Tung Shing & Dong Num, Bianco and Tubetex finishing machines of Italian & US origin respectively.'
             ]
         },
         {
           unit: 'Garment Printing',
           product: [
-            'All types of screen print'
+            'All types of screen prints including rubber, pigment, plastisol, glitter, foil, HD, puff, etc'
 
           ],
           capacity: [
