@@ -23,7 +23,7 @@
           </div>
           <q-card-separator/>
           <div class="q-subheading q-mt-md q-mb-md line-height">
-            Knittex is one of the leading manufacturer & supplier of knit products with a wide range of t-shirts, polo shirts, vests, shorts etc. in various qualities of fabrics for children, men’s &amp; ladies. We have been involved in the textiles/garment industry for over 2 decades and have a long list of clients from all over the world including the US, Canada and mainly Europe.
+            Knittex is one of the leading manufacturer & supplier of knit products with a wide range of t-shirts, polo shirts, vests, shorts etc. in various qualities of fabrics for children, men’s &amp; ladies. We have been involved in the textiles/garment industry for over 30 years. and have a long list of clients from all over the world including the US, Canada and mainly Europe.
           </div>
           <q-card-separator/>
           <div class="q-subheading q-mt-md q-mb-md line-height">
@@ -46,7 +46,7 @@
         <div class="img-text full-width text-primary text-bold q-pa-sm q-headline text-italic">{{ director.name }}</div>
       </div>
     </div>
-    <div class="col-8 offset-2 q-mb-xl">
+    <!-- <div class="col-8 offset-2 q-mb-xl">
       <q-timeline color="primary">
         <q-timeline-entry heading>
           <div class="col-12">
@@ -77,30 +77,7 @@
         >
         </q-timeline-entry>
       </q-timeline>
-    </div>
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Contact Persons</div>
-    <div class="col-2 offset-5 q-mt-sm">
-      <hr>
-    </div>
-    <div class="col-3"></div>
-    <div class="col-lg-4 col-xs-12 q-mt-xl q-mb-xl">
-      <div class="text-center q-mb-md q-title text-primary">Md. Asadul Haq (Managing Direcor)</div>
-      <div class="text-center q-mb-md">
-        Tel: +880-2-8922801, 8960734, 8931748
-      </div>
-      <div class="text-center q-mb-md">Cell: +880-17130655534</div>
-      <div class="text-center">asad@fuljhury.com</div>
-    </div>
-    <div class="col-lg-4 col-xs-12 q-mt-xl q-mb-xl">
-      <div class="text-center q-mb-md q-title text-primary">Md. Riajul Haq (Direcor)</div>
-      <div class="text-center q-mb-md">Cell: +880-1713040342</div>
-      <div class="text-center q-mb-md">mrhshapan@fuljhury.com</div>
-    </div>
-    <div class="col-lg-4 col-xs-12 q-mt-xl q-mb-xl">
-      <div class="text-center q-mb-md q-title text-primary">Md. Asadul Haq (Managing Direcor)</div>
-      <div class="text-center q-mb-md">Cell: +880-1711430939</div>
-      <div class="text-center">ehaq@fuljhury.com</div>
-    </div>
+    </div> -->
     <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Bank Details</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
@@ -120,9 +97,7 @@
         <q-card-separator />
         <q-card-main>
           <div class="q-subheading q-mb-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Knittex Industries Ltd.: 100% Export Oriented Composite Knit Garments (Knitting, Dyeing, Finishing, Printing &amp; Garments).</div>
-          <q-card-separator />
           <div class="q-subheading q-mb-md q-mt-md"> <q-icon color="secondary" size="25px" name="navigate next" /> Fuljhury Spinning Mills Ltd. (under construction): 100% cotton knit yarn production.</div>
-          <q-card-separator />
         </q-card-main>
       </q-card>
     </div>
