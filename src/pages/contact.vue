@@ -153,7 +153,7 @@ export default {
 }
 
 .border-right {
-  border-right: 2px solid #32BE61;
+  border-right: 2px solid #037001;
 }
 
 @media (max-width: 700px) {
@@ -162,7 +162,7 @@ export default {
   }
 
   .border-top {
-    border-top: 2px solid #32BE61;
+    border-top: 2px solid #037001;
   }
 }
 

@@ -20,14 +20,8 @@
           <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
         </q-carousel>
       </div>
-      <!-- <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg flex justify-center items-center">
-        <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
-      </div>
-      <div class="col-6 offset-3 q-mb-md">
-        <hr>
-      </div> -->
       <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-headline text-secondary text-bold text-italic">Ensuring quality one stitch at a time.</div>
+      <div class="text-center q-headline text-secondary text-bold">Ensuring quality one stitch at a time.</div>
       </div>
       <div class="col-2 offset-5 q-mt-sm">
         <hr>

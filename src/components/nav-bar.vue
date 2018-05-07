@@ -69,7 +69,7 @@ export default {
   }
 
   .nav-btn:hover {
-    background: #32BE61;
+    background: #037001;
     color: #eee !important;
   }
 
