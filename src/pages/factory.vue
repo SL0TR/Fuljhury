@@ -1,12 +1,12 @@
 <template>
   <div class="row">
-    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
-      <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
+    <div class="col-xs-10 offset-xs-1  q-mt-xl">
+      <div class="text-center q-display-3 text-secondary text-bold uppercase">Our Factory</div>
     </div>
-    <!-- <div class="col-6 offset-3 q-mb-xs">
+    <div class="col-2 offset-5 q-mt-sm">
       <hr>
-    </div> -->
-    <div class="col-lg-8 offset-lg-2 col-xs-12">
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-xs-12 q-mt-xl">
       <q-carousel
         arrows
         height="65vh"
@@ -37,12 +37,6 @@
           />
         </q-carousel-control>
       </q-carousel>
-    </div>
-    <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-2 text-secondary text-bold uppercase">Our Factory</div>
-    </div>
-    <div class="col-2 offset-5 q-mt-sm">
-      <hr>
     </div>
     <div class="col-10 offset-1 q-mt-lg q-mb-lg q-title">
       <div class="text-center q-mb-xl q-mt-xl">As a leading knit garments facility (vertical knit composite), Knittex Industries Ltd. a Ltd. company, has established itself in Bangladesh as a prominent supplier of knit garments in 1990. Currently, over 1,500 people are working with 75 people at management positions.</div>

@@ -11,7 +11,7 @@
     <q-btn class=" nav-btn" label="FACTORY" flat @click="$router.push('/factory')"/>
     <q-btn class=" nav-btn" label="CERTIFICATIONS" flat @click="$router.push('/certifications')"/>
     <q-btn class=" nav-btn" label="PRODUCT" flat @click="$router.push('/product')"/>
-    <q-btn class=" nav-btn" label="CONTACT" flat @click="$router.push('/contact')"/>
+    <q-btn class=" nav-btn" label="CONTACT US" flat @click="$router.push('/contact')"/>
   </q-btn-group>
   <q-layout-drawer class="text-primary" side="left" v-model="drawer">
     <div class="row">
@@ -31,7 +31,7 @@
         <q-btn class="full-width" label="PRODUCT" outline @click="$router.push('/product')"/>
       </div>
       <div class="col-10 offset-1 q-mt-lg">
-        <q-btn class="full-width" label="CONTACT" outline @click="$router.push('/contact')"/>
+        <q-btn class="full-width" label="CONTACT US" outline @click="$router.push('/contact')"/>
       </div>
     </div>
   </q-layout-drawer>

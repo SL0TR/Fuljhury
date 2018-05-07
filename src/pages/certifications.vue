@@ -1,13 +1,7 @@
 <template>
   <div class="row q-mb-xl">
-    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
-      <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
-    </div>
-    <div class="col-6 offset-3 q-mb-md">
-      <hr>
-    </div>
-    <div class="col-xs-10 offset-xs-1  q-mt-lg">
-      <div class="text-center q-display-1 text-secondary text-bold uppercase">Our Certifications</div>
+    <div class="col-xs-10 offset-xs-1  q-mt-xl">
+      <div class="text-center q-display-3 text-secondary text-bold uppercase certi-header">Our Certifications</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
@@ -62,20 +56,32 @@ export default {
         },
         {
           link: 'http://www.sedexglobal.com/',
-          img: '../assets/cert5_sm.jpg',
+          img: '../assets/cert3_sm.jpg',
           detail: 'Sedex is a membership organisation for businesses committed to continuous improvement of the ethical performance of their supply chains. Sedex enables member companies to efficiently manage the ethical and responsible practices of their global supply chains, generating transparency through the provision of a data exchange',
           subDetail: 'Knittex Industries Ltd. is registered at the Sedex website and have successfully met the requirements of the SMETA audit.',
           smeta: 'https://www.sedexglobal.com/products-services/auditors/'
         },
         {
           link: 'http://www.bgmea.com.bd/',
-          img: '../assets/cert3_sm.jpg',
+          img: '../assets/cert4_sm.jpg',
+          detail: 'The Global Organic Textile Standard (GOTS) is recognised as the world\'s leading processing standard for textiles made from organic fibres. It defines high-level environmental criteria along the entire organic textiles supply chain and requires compliance with social criteria as well.',
+          subDetail: 'Knittex was awarded the GOTS certifaction in 2016.'
+        },
+        {
+          link: 'http://www.bgmea.com.bd/',
+          img: '../assets/cert5_sm.jpeg',
+          detail: 'The Accord is an independent, legally binding agreement between brands and trade unions designed to work towards a safe and healthy Bangladeshi Ready-Made Garment Industry. The purpose is to enable a working environment in which no worker needs to fear fires, building collapses, or other accidents that could be prevented with reasonable health and safety measures.',
+          subDetail: 'Knittex is a part of Accord since 2014 with ongoing developments every year.'
+        },
+        {
+          link: 'http://www.bgmea.com.bd/',
+          img: '../assets/cert6_sm.jpg',
           detail: 'The Bangladesh Garment Manufacturers and Exporters Association (BGMEA) is the apex trade body that represents the export oriented woven knit and sweater garment manufacturers and exporters of the country. The fundamental objective of BGMEA is to establish a healthy business environment for a close and mutually beneficial relationship between the manufacturers, exporters and importers in the process ensuring a steady growth in the foreign exchange earnings of the country.',
           subDetail: 'In accordance with the guideline of Bangladesh Labour Law 2006, BGMEA, in association with GTZ, has given Knittex Industries Ltd. a grade A score.'
         },
         {
           link: 'http://www.bkmea.com/',
-          img: '../assets/cert4_sm.jpg',
+          img: '../assets/cert7_sm.jpg',
           detail: 'Bangladesh Knitwear Manufacturers & Exporters Association (BKMEA) has given Knittex Industries Ltd. an "A" grade, which is the highest in their rating system.'
         }
       ]
@@ -133,6 +139,10 @@ a {
     height: 35%;
     top: 0;
     left: 2rem;
+  }
+
+  .certi-header {
+    font-size: 2rem;
   }
 
 }

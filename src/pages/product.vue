@@ -1,13 +1,7 @@
 <template>
   <div class="row">
-    <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-xs flex justify-center items-center">
-      <img class="fulljhury-logo" src="../assets/fuljhury-logo.png" alt="fulljhury-logo ">
-    </div>
-    <div class="col-6 offset-3 q-mb-md">
-      <hr>
-    </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold uppercase">Our Products</div>
+      <div class="text-center q-display-3 text-secondary text-bold uppercase">Our Products</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>

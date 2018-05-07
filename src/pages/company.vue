@@ -115,6 +115,17 @@
         </q-card-main>
       </q-card>
     </div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Sister concern</div>
+    <div class="col-2 offset-5 q-mt-sm">
+      <hr>
+    </div>
+    <div class="col-lg-12 col-xs-12 q-mt-xl q-mb-xl">
+      <div class="text-center q-mb-md">Deutsch Bangla Textil Vertriebs GmbH Eckerngarten 6 D-34497 Korbach-Lelbach</div>
+      <div class="text-center q-mb-md">Phone: +49 (56 31) 91 52 55</div>
+      <div class="text-center q-mb-md">Tel: +49 (171) 286 16 02</div>
+      <div class="text-center q-mb-md">Fax: +49 ( 56 31) 77 77</div>
+      <div class="text-center">Email: info@deutsch-bangla.de</div>
+    </div>
   </div>
 </template>
 
