@@ -13,7 +13,6 @@
         infinite
         autoplay
         quick-nav
-        handle-arrow-keys
         class="round-borders shadow-1"
         color="secondary"
       >

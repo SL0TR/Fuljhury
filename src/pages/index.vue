@@ -8,28 +8,16 @@
           infinite
           autoplay
           quick-nav
+          handle-arrow-keys
           :easing="overshoot"
           class="round-borders shadow-1"
           color="secondary"
         >
-          <q-carousel-slide img-src="../assets/fuljhury-bg-logo.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../assets/fuljhury-new-bg.jpg"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-4.JPG"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-5.JPG"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
           <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
-          <!-- <q-carousel-control
-            slot="control-button"
-            slot-scope="carousel"
-            position="bottom-right"
-            :offset="[18, 22]"
-          >
-            <q-btn
-              round dense push
-              color="secondary"
-              :icon="carousel.inFullscreen ? 'fullscreen_exit' : 'fullscreen'"
-              @click="carousel.toggleFullscreen()"
-            />
-          </q-carousel-control> -->
         </q-carousel>
       </div>
       <!-- <div class="col-xs-8 offset-xs-2 col-lg-4 offset-lg-4 q-mt-lg flex justify-center items-center">
