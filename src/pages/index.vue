@@ -58,9 +58,9 @@
       <div class="col-2 offset-5 q-mt-sm">
         <hr>
       </div>
-      <div class="col-lg-10 offset-lg-1 col-xs-10 offset-xs-1 q-mt-md q-mb-md">
+      <div class="col-lg-10 offset-lg-1 col-xs-10 offset-xs-1 q-mt-md q-mb-md flex items-center wrap justify-center">
         <a v-for="(logo,key) in featuredCert" :key="key" :href="logo.url" target="_blank" rel="noopener">
-        <img class="feature-cert-logo"  :src="logo.imgLogo" alt="image">
+        <img class="feature-cert-logo q-ml-xl"  :src="logo.imgLogo" alt="image">
         </a>
       </div>
     </div>
@@ -75,8 +75,7 @@
   }
 
   .feature-cert-logo {
-    width: 18%;
-    margin-left: 2%;
+    width: 300px;
   }
 
   .featured-header {
@@ -90,18 +89,14 @@
 
     .feature-cert-logo {
       width: 100%;
+      margin-left: 0;
+      margin-top: 1rem;
     }
 
     .fulljhury-logo {
       width: 15rem;
       height: 8rem;
     }
-  }
-
-  @media (min-width: 1700px) {
-    /* .profilePic {
-      min-height: 200px;
-    } */
   }
 
 </style>
@@ -132,7 +127,15 @@ export default {
         },
         {
           url: 'https://www.sedexglobal.com/',
-          imgLogo: '../assets/cert5_sm.jpg'
+          imgLogo: '../assets/cert5_sm.jpeg'
+        },
+        {
+          url: 'https://www.sedexglobal.com/',
+          imgLogo: '../assets/cert6_sm.jpg'
+        },
+        {
+          url: 'https://www.sedexglobal.com/',
+          imgLogo: '../assets/cert7_sm.jpg'
         }
       ]
     }
