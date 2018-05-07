@@ -7,7 +7,7 @@
       <hr>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold">Our Products</div>
+      <div class="text-center q-display-1 text-secondary text-bold uppercase">Our Products</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>

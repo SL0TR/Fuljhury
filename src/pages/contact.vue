@@ -7,7 +7,7 @@
       <hr>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold q-mb-xs">Contact Us</div>
+      <div class="text-center q-display-1 text-secondary text-bold q-mb-xs uppercase">Contact Us</div>
     </div>
     <div class="col-2 offset-5 q-mb-lg">
       <hr>
@@ -16,7 +16,7 @@
       <iframe class="full-width gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.7074618220704!2d90.40172571539047!3d23.864519590323276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c42f37c4861d%3A0x8b6399e840210f2a!2s4+Road-13%2C+Dhaka+1230!5e0!3m2!1sen!2sbd!4v1524685101466" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-headline text-secondary text-bold">We'd love to hear from you.</div>
+      <div class="text-center q-headline text-secondary text-bold uppercase">We'd love to hear from you.</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>

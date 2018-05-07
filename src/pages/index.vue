@@ -53,7 +53,7 @@
         </q-card>
       </div>
       <div class="col-xs-10 offset-xs-1  q-mt-lg">
-        <div class="text-center q-display-1 text-secondary text-bold">Featured Certifications</div>
+        <div class="text-center q-display-1 text-secondary text-bold featured-header uppercase">Featured Certifications</div>
       </div>
       <div class="col-2 offset-5 q-mt-sm">
         <hr>
@@ -68,31 +68,19 @@
 </template>
 
 <style scoped>
+  @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+
   .q-carousel-slide {
     position: relative;
   }
 
-  /* .q-carousel-slide::after {
-    content: "";
-    background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-  } */
-
-  /* .fulljhury-logo {
-    position: absolute;
-    height: 15rem;
-    width: 25rem;
-    top: 32vh;
-    opacity: .7;
-  } */
-
   .feature-cert-logo {
     width: 18%;
     margin-left: 2%;
+  }
+
+  .featured-header {
+    font-family: 'Raleway', sans-serif;
   }
 
   @media (max-width: 700px) {

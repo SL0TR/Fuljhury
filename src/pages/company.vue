@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-xs-10 offset-xs-1  q-mt-lg">
-      <div class="text-center q-display-3 text-secondary text-bold">Our Company</div>
+      <div class="text-center q-display-3 text-secondary text-bold uppercase">Our Company</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm q-mb-lg">
       <hr>
@@ -35,7 +35,7 @@
       </q-card>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold">Board of Directors</div>
+      <div class="text-center q-display-1 text-secondary text-bold uppercase">Board of Directors</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
@@ -51,7 +51,7 @@
         <q-timeline-entry heading>
           <div class="col-12">
             <div class="row">
-              <div class="col-12 text-secondary text-center q-display-1 q-mt-xl text-bold">History</div>
+              <div class="col-12 text-secondary text-center q-display-1 q-mt-xl text-bold uppercase">History</div>
               <div class="col-2 offset-5 q-mt-sm">
                 <hr>
               </div>
@@ -78,7 +78,7 @@
         </q-timeline-entry>
       </q-timeline>
     </div>
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold">Contact Persons</div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Contact Persons</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>
@@ -101,7 +101,7 @@
       <div class="text-center q-mb-md">Cell: +880-1711430939</div>
       <div class="text-center">ehaq@fuljhury.com</div>
     </div>
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold">Bank Details</div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Bank Details</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>
