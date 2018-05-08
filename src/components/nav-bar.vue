@@ -3,7 +3,7 @@
     color="white"
   >
     <q-toolbar-title>
-      <img class="fuljhury-logo" src="../assets/fuljhury-logo.png" alt="fuljhury logo">
+      <img class="fuljhury-logo" src="../statics/images/fuljhury-logo.png" alt="fuljhury logo">
     </q-toolbar-title>
   <q-btn-group class="text-primary nav-btns" v-if="this.$q.platform.is.desktop" flat>
     <q-btn class=" nav-btn" label="HOME" flat @click="$router.push('/')"/>

@@ -27,25 +27,15 @@ export default {
   data () {
     return {
       images: [
-        '../assets/product1.jpg',
-        '../assets/product2.jpg',
-        '../assets/product3.jpg',
-        '../assets/product4.jpg',
-        '../assets/product5.jpg',
-        '../assets/product6.jpg',
-        '../assets/product7.jpg',
-        '../assets/product8.jpg',
-        '../assets/product9.jpg',
-        '../assets/product10.jpg',
-        '../assets/product11.jpg',
-        '../assets/product12.jpg',
-        '../assets/product13.jpg',
-        '../assets/product14.jpg',
-        '../assets/product15.jpg',
-        '../assets/product16.jpg',
-        '../assets/product17.jpg',
-        '../assets/product18.jpg',
-        '../assets/product19.jpg'
+        '../statics/images/product-1.png',
+        '../statics/images/product-2.png',
+        '../statics/images/product-3.png',
+        '../statics/images/product-4.png',
+        '../statics/images/product-5.png',
+        '../statics/images/product-6.png',
+        '../statics/images/product-7.png',
+        '../statics/images/product-8.png',
+        '../statics/images/product-9.png'
 
       ],
       index: null

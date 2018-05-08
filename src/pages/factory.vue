@@ -16,13 +16,13 @@
         class="round-borders shadow-1"
         color="secondary"
       >
-        <q-carousel-slide img-src="../assets/slide-image-1.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-6.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-9.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-10.JPG"></q-carousel-slide>
-        <q-carousel-slide img-src="../assets/slide-image-11.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-1.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-2.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-3.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-6.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-9.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-10.JPG"></q-carousel-slide>
+        <q-carousel-slide img-src="../statics/images/slide-image-11.JPG"></q-carousel-slide>
         <q-carousel-control
           slot="control-button"
           slot-scope="carousel"

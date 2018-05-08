@@ -13,11 +13,11 @@
           class="round-borders shadow-1"
           color="secondary"
         >
-          <q-carousel-slide img-src="../assets/fuljhury-new-bg.jpg"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/slide-image-4.JPG"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/slide-image-5.JPG"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/slide-image-3.JPG"></q-carousel-slide>
-          <q-carousel-slide img-src="../assets/slide-image-2.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../statics/images/fuljhury-new-bg.jpg"></q-carousel-slide>
+          <q-carousel-slide img-src="../statics/images/slide-image-4.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../statics/images/slide-image-5.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../statics/images/slide-image-3.JPG"></q-carousel-slide>
+          <q-carousel-slide img-src="../statics/images/slide-image-2.JPG"></q-carousel-slide>
         </q-carousel>
       </div>
       <div class="col-xs-10 offset-xs-1  q-mt-xl">
@@ -111,31 +111,31 @@ export default {
       featuredCert: [
         {
           url: 'http://www.bsci-intl.org/',
-          imgLogo: '../assets/cert1_sm.jpg'
+          imgLogo: '../statics/images/cert1_sm.jpg'
         },
         {
           url: 'https://www.oeko-tex.com/en/manufacturers/manufacturers.xhtml',
-          imgLogo: '../assets/cert2_sm.jpg'
+          imgLogo: '../statics/images/cert2_sm.jpg'
         },
         {
           url: 'http://www.bgmea.com.bd/',
-          imgLogo: '../assets/cert3_sm.jpg'
+          imgLogo: '../statics/images/cert3_sm.jpg'
         },
         {
-          url: 'http://www.bkmea.com/',
-          imgLogo: '../assets/cert4_sm.jpg'
+          url: 'http://www.global-standard.org/',
+          imgLogo: '../statics/images/cert4_sm.jpg'
         },
         {
-          url: 'https://www.sedexglobal.com/',
-          imgLogo: '../assets/cert5_sm.jpeg'
-        },
-        {
-          url: 'https://www.sedexglobal.com/',
-          imgLogo: '../assets/cert6_sm.jpg'
+          url: 'http://bangladeshaccord.org/',
+          imgLogo: '../statics/images/cert5_sm.jpeg'
         },
         {
           url: 'https://www.sedexglobal.com/',
-          imgLogo: '../assets/cert7_sm.jpg'
+          imgLogo: '../statics/images/cert6_sm.jpg'
+        },
+        {
+          url: 'https://www.sedexglobal.com/',
+          imgLogo: '../statics/images/cert7_sm.jpg'
         }
       ]
     }

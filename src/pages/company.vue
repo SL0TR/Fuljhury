@@ -138,19 +138,19 @@ export default {
       boardDirectos: [
         {
           name: 'Mrs. Shireen Shamsun Nahar',
-          img: '../assets/director_0.jpg'
+          img: '../statics/images/director_0.jpg'
         },
         {
           name: 'Md. Asadul Haq',
-          img: '../assets/director_1.jpg'
+          img: '../statics/images/director_1.jpg'
         },
         {
           name: 'M. Ehsanul Haq',
-          img: '../assets/director_2.jpg'
+          img: '../statics/images/director_2.jpg'
         },
         {
           name: 'Md. Riajul Haq',
-          img: '../assets/director_3.jpg'
+          img: '../statics/images/director_3.jpg'
         }
       ]
     }
@@ -175,7 +175,7 @@ export default {
   } */
 
   .company-bg {
-    background: url('../assets/company.jpg');
+    background: url('../statics/images/company.jpg');
     width: 100vw;
     height: 65vh;
     background-size: 100% 100%;
