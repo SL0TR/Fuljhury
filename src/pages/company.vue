@@ -126,6 +126,10 @@
       <div class="text-center q-mb-md">Fax: +49 ( 56 31) 77 77</div>
       <div class="text-center">Email: info@deutsch-bangla.de</div>
     </div>
+    <div class="col-lg-12 col-xs-12 q-mt-xl q-mb-xl">
+      <div class="text-center q-mb-md">SEALIONS C/O GFI GROUP VIA GIULIO MATTA 31 52025, MONTEVARCHI (AR), ITALY</div>
+      <div class="text-center">Phone: +39 331 3038611</div>
+    </div>
   </div>
 </template>
 
