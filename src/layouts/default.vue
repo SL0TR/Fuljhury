@@ -6,27 +6,13 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-toolbar class="footer flex justify-between">
-      <div>
-        &copy; 2018 Fuljhury. All Rights Reserved.
-      </div>
-        <div class="flex row items-center">
-          <div>Developed by &nbsp; </div>
-          <a class="myprofile" href="https://www.facebook.com/Mohaimin94" target="_blank" rel="noopener">
-            <q-btn
-            outline
-            size="sm"
-            rounded
-            label="Mohaimin Islam"
-          />
-          </a>
-        </div>
-    </q-toolbar>
+    <footer-comp/>
   </q-layout>
 </template>
 
 <script>
 import navBar from '../components/nav-bar'
+import footerComp from '../components/footer-comp'
 
 export default {
   name: 'LayoutDefault',
@@ -35,7 +21,8 @@ export default {
     }
   },
   components: {
-    'navBar': navBar
+    'navBar': navBar,
+    footerComp
   }
 }
 </script>
@@ -59,25 +46,8 @@ export default {
     background-size: 100% 100%;
   }
 
-  .footer {
-    margin-top: 1rem;
-  }
-
   .line-height {
     line-height: 1.5rem;
-  }
-
-  @media (max-width: 700px) {
-    .footer {
-      flex-direction: column;
-      justify-content: space-around;
-      padding: .5rem 0;
-    }
-
-    .footer div {
-      margin: .1rem 0;
-    }
-
   }
 
 </style>
