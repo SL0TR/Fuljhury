@@ -21,7 +21,7 @@
         </q-carousel>
       </div>
       <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-headline text-secondary text-bold">Ensuring quality one stitch at a time.</div>
+      <div class="text-center q-headline text-secondary text-bold text-italic">"Ensuring quality one stitch at a time."</div>
       </div>
       <div class="col-2 offset-5 q-mt-sm">
         <hr>
@@ -47,7 +47,7 @@
             <div class="text-primary">We welcome an opportunity to talk to you.</div>
             <div slot="subtitle">Just press Contact Us to send us a message</div>
             <div slot="right" class="row items-center">
-              <q-btn label="Contact Us" color="secondary"  @click="$router.push('/contact')"/>
+              <q-btn label="Contact Us" color="secondary" outline  @click="$router.push('/contact')"/>
             </div>
           </q-card-title>
         </q-card>

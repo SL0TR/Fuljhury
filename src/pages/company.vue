@@ -120,14 +120,17 @@
       <hr>
     </div>
     <div class="col-lg-12 col-xs-12 q-mt-xl q-mb-xl">
-      <div class="text-center q-mb-md">Deutsch Bangla Textil Vertriebs GmbH Eckerngarten 6 D-34497 Korbach-Lelbach</div>
+      <div class="text-center q-mb-md text-primary q-headline">Deutsch Bangla Textil Vertriebs GmbH </div>
+      <div class="text-center q-mb-md">Address: Eckerngarten 6 D-34497 Korbach-Lelbach</div>
       <div class="text-center q-mb-md">Phone: +49 (56 31) 91 52 55</div>
       <div class="text-center q-mb-md">Tel: +49 (171) 286 16 02</div>
       <div class="text-center q-mb-md">Fax: +49 ( 56 31) 77 77</div>
       <div class="text-center">Email: info@deutsch-bangla.de</div>
     </div>
     <div class="col-lg-12 col-xs-12 q-mt-xl q-mb-xl">
-      <div class="text-center q-mb-md">SEALIONS C/O GFI GROUP VIA GIULIO MATTA 31 52025, MONTEVARCHI (AR), ITALY</div>
+      <div class="text-center q-mb-md text-primary q-headline">SEALIONS</div>
+      <div class="text-center q-mb-md">Contact person: Mr Shitu Chowdhury</div>
+      <div class="text-center q-mb-md">Email: sealions5@gmail.com</div>
       <div class="text-center">Phone: +39 331 3038611</div>
     </div>
   </div>

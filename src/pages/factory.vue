@@ -1,11 +1,11 @@
 <template>
   <div class="row">
-    <div class="col-xs-10 offset-xs-1  q-mt-xl">
+    <!-- <div class="col-xs-10 offset-xs-1  q-mt-xl">
       <div class="text-center q-display-3 text-secondary text-bold uppercase">Our Factory</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
-    </div>
+    </div> -->
     <div class="col-lg-8 offset-lg-2 col-xs-12 q-mt-xl">
       <q-carousel
         arrows

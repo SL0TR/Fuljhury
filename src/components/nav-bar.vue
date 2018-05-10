@@ -66,11 +66,11 @@ export default {
 
   .nav-btn {
     transition: all .3s ease-in-out;
+    border: 2px solid transparent;
   }
 
   .nav-btn:hover {
-    background: #037001;
-    color: #eee !important;
+    border: 2px solid #037001;
   }
 
   @media (max-width: 700px) {
