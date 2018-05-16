@@ -182,7 +182,7 @@ export default {
   } */
 
   .company-bg {
-    background: url('../statics/images/company.jpg');
+    background: url('../statics/images/company-front.png');
     width: 100vw;
     height: 65vh;
     background-size: 100% 100%;
