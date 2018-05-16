@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-2 text-secondary text-bold uppercase">We'd love to hear from you.</div>
+      <div class="text-center q-display-2 text-secondary text-bold uppercase featured-header">We'd love to hear from you.</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm q-mb-xl">
       <hr>
@@ -10,7 +10,7 @@
       <div class="row">
         <div class="col-lg-6 col-xs-12">
           <div class="row">
-            <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Head Office</div>
+            <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase featured-header">Head Office</div>
             <div class="col-2 offset-5 q-mt-sm q-mb-lg">
               <hr>
             </div>
@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-6 col-xs-12">
           <div class="row">
-            <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Our Factory</div>
+            <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase featured-header">Our Factory</div>
             <div class="col-2 offset-5 q-mt-sm q-mb-lg">
               <hr>
             </div>
@@ -35,7 +35,7 @@
     <div class="col-12 q-mt-md q-mb-xl">
       <br/>
     </div>
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Contact Persons</div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase featured-header">Contact Persons</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>

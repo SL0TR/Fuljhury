@@ -28,6 +28,12 @@ export default {
 </script>
 
 <style>
+  @font-face {
+  font-family: 'bignoodletitling';
+  src: url('../statics/fonts/bignoodletitling-webfont.woff') format('woff'), /* Modern Browsers */
+       url('../statics/fonts/BigNoodleTitling.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+
   .q-layout-page-container {
     min-height: calc(100vh - 50px) !important;
   }
@@ -48,6 +54,10 @@ export default {
 
   .line-height {
     line-height: 1.5rem;
+  }
+
+  .featured-header {
+    font-family: 'bignoodletitling', sans-serif;
   }
 
 </style>

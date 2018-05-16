@@ -63,7 +63,7 @@
       </q-card>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold uppercase"> Key Features of the Knittex Industries Ltd.</div>
+      <div class="text-center q-display-1 text-secondary text-bold uppercase featured-header"> Key Features of the Knittex Industries Ltd.</div>
     </div>
     <div class="col-4 offset-4 q-mt-sm q-mb-xl">
       <hr>
@@ -178,7 +178,7 @@
       </q-tab-pane>
     </q-tabs>
     </div>
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Factory Info</div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase featured-header">Factory Info</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>
@@ -199,7 +199,7 @@
       </div>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold uppercase">Production Information</div>
+      <div class="text-center q-display-1 text-secondary text-bold uppercase featured-header">Production Information</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>

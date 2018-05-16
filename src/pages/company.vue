@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-xs-10 offset-xs-1  q-mt-lg">
-      <div class="text-center q-display-3 text-secondary text-bold uppercase">Our Company</div>
+      <div class="text-center q-display-3 text-secondary text-bold uppercase featured-header">Our Company</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm q-mb-lg">
       <hr>
@@ -35,7 +35,7 @@
       </q-card>
     </div>
     <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-1 text-secondary text-bold uppercase">Board of Directors</div>
+      <div class="text-center q-display-1 text-secondary text-bold uppercase featured-header">Board of Directors</div>
     </div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
@@ -46,39 +46,7 @@
         <div class="img-text full-width text-primary text-bold q-pa-sm q-headline text-italic">{{ director.name }}</div>
       </div>
     </div>
-    <!-- <div class="col-8 offset-2 q-mb-xl">
-      <q-timeline color="primary">
-        <q-timeline-entry heading>
-          <div class="col-12">
-            <div class="row">
-              <div class="col-12 text-secondary text-center q-display-1 q-mt-xl text-bold uppercase">History</div>
-              <div class="col-2 offset-5 q-mt-sm">
-                <hr>
-              </div>
-            </div>
-          </div>
-        </q-timeline-entry>
-        <q-timeline-entry
-          title="Year Of Establishment"
-          subtitle="1987"
-          side="left"
-        >
-        </q-timeline-entry>
-        <q-timeline-entry
-          title="REGISTRATION NUMBER"
-          subtitle="19819(589)/90"
-          side="right"
-        >
-        </q-timeline-entry>
-        <q-timeline-entry
-          title="Business Type"
-          subtitle="Private Limited Company"
-          side="left"
-        >
-        </q-timeline-entry>
-      </q-timeline>
-    </div> -->
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Bank Details</div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase featured-header">Bank Details</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>
@@ -115,7 +83,7 @@
         </q-card-main>
       </q-card>
     </div>
-    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase">Sister concern</div>
+    <div class="col-12 text-center  text-secondary q-display-1 q-mt-xl text-bold uppercase featured-header">Sister concern</div>
     <div class="col-2 offset-5 q-mt-sm">
       <hr>
     </div>

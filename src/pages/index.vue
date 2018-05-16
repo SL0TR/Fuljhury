@@ -68,18 +68,12 @@
 </template>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
-
   .q-carousel-slide {
     position: relative;
   }
 
   .feature-cert-logo {
     width: 300px;
-  }
-
-  .featured-header {
-    font-family: 'Raleway', sans-serif;
   }
 
   @media (max-width: 700px) {
