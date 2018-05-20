@@ -28,11 +28,6 @@ export default {
 </script>
 
 <style>
-  @font-face {
-  font-family: 'bignoodletitling';
-  src: url('../statics/fonts/bignoodletitling-webfont.woff') format('woff'), /* Modern Browsers */
-       url('../statics/fonts/BigNoodleTitling.ttf')  format('truetype'), /* Safari, Android, iOS */
-  }
 
   .q-layout-page-container {
     min-height: calc(100vh - 50px) !important;
