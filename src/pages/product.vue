@@ -1,11 +1,5 @@
 <template>
   <div class="row">
-    <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-3 text-secondary text-bold uppercase featured-header">Our Products</div>
-    </div>
-    <div class="col-2 offset-5 q-mt-sm">
-      <hr>
-    </div>
     <div class="col-lg-10 offset-lg-1 col-xs-12 flex wrap items-center justify-center q-mt-lg">
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div

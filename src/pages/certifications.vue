@@ -1,11 +1,5 @@
 <template>
   <div class="row q-mb-xl">
-    <div class="col-xs-10 offset-xs-1  q-mt-xl">
-      <div class="text-center q-display-3 text-secondary text-bold uppercase certi-header featured-header">Our Certifications</div>
-    </div>
-    <div class="col-2 offset-5 q-mt-sm">
-      <hr>
-    </div>
     <div class="col-lg-8 offset-lg-2 col-sm-6 offset-sm-3 q-mt-xl q-mb-xs" v-for="(cert,id) in certificates" :key="id">
       <q-card class="project m-4">
         <div class="row projectContent">

@@ -1,11 +1,5 @@
 <template>
   <div class="row">
-    <div class="col-xs-10 offset-xs-1  q-mt-lg">
-      <div class="text-center q-display-3 text-secondary text-bold uppercase featured-header">Our Company</div>
-    </div>
-    <div class="col-2 offset-5 q-mt-sm q-mb-lg">
-      <hr>
-    </div>
     <div class="company-bg">
     </div>
     <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-md q-mb-md">

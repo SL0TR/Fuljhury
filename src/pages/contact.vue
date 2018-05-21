@@ -60,7 +60,7 @@
         <div class="col-lg-6 col-xs-12 border-right">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-xs-10 offset-xs-1 q-mt-xl">
-              <form action="https://formspree.io/yomaimsj@gmail.com"
+              <form action="https://formspree.io/info@fuljhury.com"
               method="POST">
                 <div class="col-lg-8  col-xs-10 offset-xs-1 q-mb-lg q-mt-xl">
                   <q-input class="full-width" float-label="Name" type="text" name="name"/>
